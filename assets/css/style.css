@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap|Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+/*-----------------------------------Navbar*/
+.navbar-brand{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.5rem;
+}
+.navbar{
+    padding: 1.5rem 1.5rem;
+    
+}
+
+
+ .nav-item{
+     font-family: 'Lato', sans-serif;
+     font-weight:300;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size:14px;
+     
+}
+
+/*-----------------------------------Header*/
+.callout-container{
+    height: 80vh;
+    background: url('../images/image-head.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*-----------------------------------Jumbotron*/
+.jumbotron{
+  background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+
+
+
+/*-----------------------------------Buttons*/
+ .btn-outline-light{
+     font-family: 'Lato', sans-serif;     
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size:14px;
+     border:1px solid;
+     border-radius: 23px;
+     padding:0.5rem 1rem;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+ }
+
+ /*-----------------------------------Forms*/
+ .input-group{
+     border: 0 !important;
+     border-radius: 30px !important;
+     margin: 2px;
+     box-shadow: none !important;
+ }
+.form-control{
+    border-radius: 30px;
+}
+ .input-group-text{
+     width: 100px;
+     background-image: linear-gradient(#00ff7e, #1f3d90);
+     border: 0 !important;
+     color: #fff !important;
+     padding: 0 25px;
+     border-radius: 30px;
+     box-shadow: none;
+ }
