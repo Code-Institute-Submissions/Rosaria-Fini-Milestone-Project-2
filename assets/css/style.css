@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap|Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap|Lato&family=Lobster+Two:wght@700&display=swap');
 
+/*-----------------------------------Typography*/
+body{
+    font-family: 'Lato', sans-serif;
+}
 /*-----------------------------------Navbar*/
 .navbar-brand{
     font-family: 'Julius Sans One', sans-serif;
@@ -19,8 +23,8 @@
      font-size:14px;
      
 }
-
-/*-----------------------------------Header*/
+/* S E C T I O N S */
+/*-----------------------------------Header Section*/
 .callout-container{
     height: 80vh;
     background: url('../images/image-head.jpg') no-repeat center center fixed;
@@ -45,7 +49,7 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/*-----------------------------------Jumbotron*/
+/*-----------------------------------Header Section-Jumbotron*/
 .jumbotron{
   background-color: transparent;
 }
@@ -54,9 +58,66 @@
     color: white;
     font-weight: bold;
     padding-bottom: 1rem;
+    font-family: 'Lobster Two', cursive;
+    font-size: 3rem;
+}
+/*-----------------------------------Features Container*/
+.features-container{
+    padding: 100px 0;
+}
+.top{
+    text-align: center;
+    padding-bottom: 30px;
 }
 
+.feat-img img {
+    width:100%;
+}
 
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+
+.feat-img{
+    position: relative;
+}
+
+.rating{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+
+.features-container .fa {
+   font-size: 15px;
+   color: #ff5722;
+}
+
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+
+.feature-details .fa{
+    margin-right: 5px;
+}
+
+.feature-details h4{
+    margin-top: 20px;
+}
 
 
 /*-----------------------------------Buttons*/
@@ -94,3 +155,6 @@
      border-radius: 30px;
      box-shadow: none;
  }
+
+ /*-------------------------------------Map*/
+#map {min-height: 460px;}

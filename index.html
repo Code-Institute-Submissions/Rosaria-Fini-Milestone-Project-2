@@ -1,98 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Declaring above Doctype and language--> 
+  <!--Declaring above Doctype and language-->
 
-<head>
+  <head>
     <!--Declarying character encoding for website and viewport for responsiveness-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!--Bootstrap 4.5.2 CDN-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      type="text/css"
+    />
     <!--Font Awesome 4.7.0 CDN-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <!--Hover CSS 2.3.1 CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+      crossorigin="anonymous"
+    />
     <!-- CSS Files-->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title> QVD Homepage</title>
-</head>
+    <title>QVD Homepage</title>
+  </head>
 
-<body>
-
+  <body>
     <!--Bootstrap collapsable Navigation bar-->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">QVD</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                >Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Populars <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Contacts <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item mr-2 d-lg-none d-xl-none">
-              <a class="nav-link" href="/login">Login</a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">QVD</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Populars <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Contacts <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item mr-2 d-lg-none d-xl-none">
+            <a class="nav-link" href="/login">Login</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-none d-lg-block">
+        <a href="/login" class="btn btn-outline-light">Login</a>
+      </div>
+    </nav>
+
+    <!-- Header Section-->
+
+    <div class="container-fluid callout-container">
+      <div class="row">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="col-12">
+          <section class="jumbotron text-center">
+            <h1 class="jumbotron-header">Quo Vado Destinations</h1>
+            <form class="input-group">
+              <select id="inputState" class="form-select form-control">
+                <option value="all" selected>Select a Country</option>
+                <option value="au">Italy</option>
+                <option value="ca">Spain</option>
+                <option value="us">Greece</option>
+                <option value="uk">Indonesia</option>
+                <option value="uk">Maldives</option>
+              </select>
+              <div class="input-group-append">
+                <button type="submit" class="input-group-text btn">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </section>
         </div>
-        <div class="d-none d-lg-block">
-          <a href="/login" class="btn btn-outline-light">Login</a>
+      </div>
+    </div>
+
+    <!--Map Section-->
+
+    <div class="container-fluid map-container">
+      <div class="row no-gutters">
+        <div class="col-12 col-lg-12">
+          <div id="map"></div>
         </div>
-      </nav>
-    
-    <!-- Header-->
-        
-        <div class="container-fluid callout-container">
-           <div class="row"> 
-               <div class="opaque-overlay">&nbsp;</div>
-               <div class="col-12">
-                   <section class="jumbotron text-center">
-                    <h1 class="jumbotron-header">Quo Vado Destinations</h1>
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search Country or City">
-                        <div class="input-group-append">
-                        <button type="submit" class="input-group-text btn">Search</button>
+      </div>
+    </div>
+
+    <!--Features Section-->
+    <div class="container-fluid features-container">
+      <div class="row">
+        <div class="col-12">
+            <h1 class="top"> Top Destinations</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="feat-box">
+                            <div class="feat-img">
+                               <img src="assets/images/image-bari.jpg"> 
+                               <div class="price">
+                                   <p>80£</p>
+                               </div>
+                               <div class="rating">
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star-half"></i>
+                                   <i class="fa fa-star-o"></i>
+                               </div>
+                            </div>
+                            <div class="feature-details">
+                            <h4><strong>Bari</strong></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora quae aut consequatur, harum laboriosam error? Ratione quisquam ipsam repellat esse eum blanditiis assumenda vitae? Deserunt dignissimos dolore dolorum voluptatum!</p>
+                            <div>
+                                <span> <i class="fa fa-map-marker"></i>Bari</span>
+                                <span> <i class="fa fa-sun-o"></i>4 Days</span>
+                                <span> <i class="fa fa-moon-o"></i>3 Nights</span>
+                            </div>
+                            </div>
                         </div>
-                       </div>
-                   </section>
-               </div>
-        
-           </div>
+                    </div>
+                    <div class="col-md-4">
+                         <div class="feat-box">
+                            <div class="feat-img">
+                               <img src="assets/images/image-bari.jpg"> 
+                               <div class="price">
+                                   <p>80£</p>
+                               </div>
+                               <div class="rating">
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star-half"></i>
+                                   <i class="fa fa-star-o"></i>
+                               </div>
+                            </div>
+                            <div class="feature-details">
+                            <h4><strong>Bari</strong></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora quae aut consequatur, harum laboriosam error? Ratione quisquam ipsam repellat esse eum blanditiis assumenda vitae? Deserunt dignissimos dolore dolorum voluptatum!</p>
+                            <div>
+                                <span> <i class="fa fa-map-marker"></i>Bari</span>
+                                <span> <i class="fa fa-sun-o"></i>4 Days</span>
+                                <span> <i class="fa fa-moon-o"></i>3 Nights</span>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                         <div class="feat-box">
+                            <div class="feat-img">
+                               <img src="assets/images/image-bari.jpg"> 
+                               <div class="price">
+                                   <p>80£</p>
+                               </div>
+                               <div class="rating">
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star-half"></i>
+                                   <i class="fa fa-star-o"></i>
+                               </div>
+                            </div>
+                            <div class="feature-details">
+                            <h4><strong>Bari</strong></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora quae aut consequatur, harum laboriosam error? Ratione quisquam ipsam repellat esse eum blanditiis assumenda vitae? Deserunt dignissimos dolore dolorum voluptatum!</p>
+                            <div>
+                                <span> <i class="fa fa-map-marker"></i>Bari</span>
+                                <span> <i class="fa fa-sun-o"></i>4 Days</span>
+                                <span> <i class="fa fa-moon-o"></i>3 Nights</span>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
         </div>
-        
-
-        
-    
-
-    
-
+      </div>
+    </div>
 
     <!--Javascript files-->
+    <!--Google API-->
+
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6paRZ0JSVKiNFjM1b7eRh_4F6XQggZ5U&callback=initMap"
+    ></script>
+
     <!--JQuery 3.5.1 script-->
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+
     <!--Bootstrap JS-->
+
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"></script>
-</body>
+      crossorigin="anonymous"
+    ></script>
 
+    <!--My JS Files-->
+    <script src="assets/js/maps.js"></script>
+  </body>
 </html>
