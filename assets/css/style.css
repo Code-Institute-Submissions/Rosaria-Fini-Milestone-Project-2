@@ -23,6 +23,8 @@ body{
      font-size:14px;
      
 }
+
+
 /* S E C T I O N S */
 /*-----------------------------------Header Section*/
 .callout-container{
@@ -61,13 +63,16 @@ body{
     font-family: 'Lobster Two', cursive;
     font-size: 3rem;
 }
-/*-----------------------------------Features Container*/
+/*-----------------------------------Features Section*/
 .features-container{
     padding: 100px 0;
 }
 .top{
     text-align: center;
     padding-bottom: 30px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 3rem;
+    
 }
 
 .feat-img img {
@@ -119,6 +124,75 @@ body{
     margin-top: 20px;
 }
 
+.feat-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------Contact Section*/
+.trip-container{
+    height: 70vh;
+    background: url('../images/image-trip.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+/*-----------------------------------Gallery Section*/
+
+.gallery-container{
+    padding: 100px 0;
+}
+
+
+
+
+.gallery{
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 3rem;
+    padding-bottom: 50px;
+
+}
+
+.gallery-box{
+    position: relative;
+}
+
+.gallery-box img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.gallery-box h4{
+    font-family: 'Lobster Two', cursive;
+    font-size: 3rem;
+    font-weight: 200;
+    padding-top: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+.gallery img{
+    margin-bottom: 1rem;
+}
+ 
+section img {
+    margin-bottom: 15px;;
+}
 
 /*-----------------------------------Buttons*/
  .btn-outline-light{
@@ -136,6 +210,46 @@ body{
     -o-transition: all 0.35s ease-in-out;
  }
 
+ .btn-book{
+     background-color: #ff5722;
+     font-family: 'Lato', sans-serif;     
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #fff;
+     letter-spacing: 1px;
+     margin-top: 20px;
+     font-size:14px;
+     border:1px solid;
+     border-radius: 23px;
+     padding:0.5rem 1rem;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+ }
+
+ .btn-book:hover{
+     background-color:#df4929;
+ }
+
+ /*-----------------------------------Hover.css*/
+ .hvr-icon-grow{
+      
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+ }
+
+.hvr-icon-grow:hover,
+.hvr-icon-grow:focus,
+.hvr-icon-grow:active {
+    transform: scale(1.1);
+    
+}
  /*-----------------------------------Forms*/
  .input-group{
      border: 0 !important;
@@ -149,12 +263,30 @@ body{
  .input-group-text{
      width: 100px;
      background-image: linear-gradient(#00ff7e, #1f3d90);
-     border: 0 !important;
-     color: #fff !important;
+     border: 0;
+     color: #fff;
      padding: 0 25px;
      border-radius: 30px;
      box-shadow: none;
  }
 
+ /*-----------------------------------Footer*/
+
+ footer{
+    background-color: #343a40!important;
+    color: #fafafa;
+    min-height: 200px;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+ }
+
  /*-------------------------------------Map*/
 #map {min-height: 460px;}
+
+
+/*-------------------------------------Media Queries*/
+@media(min-width:768px){
+.gallery-box h4{
+   font-size: 2rem;
+}
+}
