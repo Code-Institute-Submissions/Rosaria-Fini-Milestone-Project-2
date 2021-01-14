@@ -75,39 +75,19 @@
         <div class="col-12">
           <section class="jumbotron text-center">
             <h1 class="jumbotron-header">Quo Vado Destinations</h1>
-            <form class="input-group">
-              <select id="inputState" class="form-select form-control">
-                <option value="all" selected>Select a Country</option>
-                <option value="au">Italy</option>
-                <option value="ca">Spain</option>
-                <option value="us">Greece</option>
-              </select>
-              <div class="input-group-append">
-                <button type="submit" class="input-group-text btn">
-                  Submit
-                </button>
-              </div>
-            </form>
+            
           </section>
         </div>
       </div>
     </div>
 
-    <!--Map Section-->
-
-    <div class="container-fluid map-container">
-      <div class="row no-gutters">
-        <div class="col-12 col-lg-12">
-          <div id="map"></div>
-        </div>
-      </div>
-    </div>
+   
 
     <!--Features Section-->
     <div class="container-fluid features-container">
       <div class="row">
         <div class="col-12">
-          <h1 class="top">Top Destinations</h1>
+          <h1 class="top">Bucket List</h1>
           <div class="container">
             <div class="row">
               <div class="col-md-4">
@@ -128,12 +108,10 @@
                   <div class="feature-details">
                     <h4><strong>Bari</strong></h4>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Laudantium tempora quae aut consequatur, harum laboriosam
-                      error? Ratione quisquam ipsam repellat esse eum blanditiis
-                      assumenda vitae? Deserunt dignissimos dolore dolorum
-                      voluptatum!
+                      From Bari it is easy to reach various tourist destinations in Puglia. Alberobello with its trulli is just over 50 km away; the charming Polignano a Mare, with its houses overlooking the sea and its beautiful beach, is just 35-40 km away; and Trani, Andria, the white villages of the Itria Valley, the caves of Castellana, are all destinations that can be reached within a day. Not far from Bari, in nearby Basilicata, is Matera, the European Capital of Culture 2019.
                     </p>
+                    <a href="javascript:void();" class="readmore-btn text-decoration-none">Read More</a>
+                    
                     <div>
                       <span> <i class="fa fa-map-marker"></i>Bari</span>
                       <span> <i class="fa fa-sun-o"></i>4 Days</span>
@@ -163,12 +141,12 @@
                   <div class="feature-details">
                     <h4><strong>Malaga</strong></h4>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Laudantium tempora quae aut consequatur, harum laboriosam
-                      error? Ratione quisquam ipsam repellat esse eum blanditiis
-                      assumenda vitae? Deserunt dignissimos dolore dolorum
-                      voluptatum!
+                      Malaga is the fifth largest city in Spain, and one of the most important tourist destinations in the world.
+                      The city of Malaga has a very special charm that any visitor can identify in a short walk. The culture, traditions, gastronomy, an enviable climate and the hospitality of its people serve to consolidate the image of the "city of paradise", the name used by the famous Spanish poet Vicente Aleixandre, Nobel Prize for poetry and literature, in reference to the city.
+
                     </p>
+                    <a href="javascript:void();" class="readmore-btn text-decoration-none">Read More</a>
+                    
                     <div>
                       <span> <i class="fa fa-map-marker"></i>Malaga</span>
                       <span> <i class="fa fa-sun-o"></i>4 Days</span>
@@ -198,12 +176,11 @@
                   <div class="feature-details">
                     <h4><strong>Santorini</strong></h4>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Laudantium tempora quae aut consequatur, harum laboriosam
-                      error? Ratione quisquam ipsam repellat esse eum blanditiis
-                      assumenda vitae? Deserunt dignissimos dolore dolorum
-                      voluptatum!
+                      Blue domes, white houses and spectacular sunsets: this is Santorini, the southernmost and mildest of the Cyclades able to enchant travelers from all over the world for its unique landscape.
+                      Santorini explodes with charm. A volcano embraced by the Aegean, this island phenomenon in the Cyclades offers its visitors a mythical experience. Santorini - also known as Thera in Greek - is the island immortalized by poets and painters, thanks to its famous light , the multicolored cliffs and postcard sunsets.
                     </p>
+                    <a href="javascript:void();" class="readmore-btn text-decoration-none">Read More</a>
+                    
                     <div>
                       <span> <i class="fa fa-map-marker"></i>Santorini</span>
                       <span> <i class="fa fa-sun-o"></i>4 Days</span>
@@ -261,6 +238,16 @@
             </div>
           </div>
         </section>
+
+         <!--Map Section-->
+
+    <div class="container-fluid map-container">
+      <div class="row no-gutters">
+        <div class="col-12 col-lg-12">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
     <!--Footer Section-->
     
     <footer class="container-fluid">
@@ -328,11 +315,13 @@
 
     <!--JQuery 3.5.1 script-->
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"
-    ></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" 
+integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" 
+crossorigin="anonymous"> </script>
+    
+
+    
 
     <!--Bootstrap JS-->
 
@@ -343,6 +332,7 @@
     ></script>
 
     <!--My JS Files-->
+    <script src="assets/js/script.js"></script>
     <script src="assets/js/maps.js"></script>
   </body>
 </html>

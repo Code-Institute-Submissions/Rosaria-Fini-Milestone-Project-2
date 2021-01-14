@@ -28,7 +28,7 @@ body{
 /* S E C T I O N S */
 /*-----------------------------------Header Section*/
 .callout-container{
-    height: 80vh;
+    height: 70vh;
     background: url('../images/image-head.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -113,7 +113,7 @@ body{
 
 .feature-details{
     padding: 20px;
-    text-align: justify;
+    
 }
 
 .feature-details .fa{
@@ -128,6 +128,24 @@ body{
     box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
     margin-bottom: 20px;
 }
+
+.feature-details p{
+    height:50px;
+    overflow: hidden;
+    color: #343a40;
+}
+
+.feature-details a{
+    display: inline-block;
+    color:#343a40;
+    margin-bottom: 20px;
+}
+
+.feature-details.showContent p {
+    height: auto;
+}
+
+
 
 /*-----------------------------------Contact Section*/
 .trip-container{
@@ -250,26 +268,7 @@ section img {
     transform: scale(1.1);
     
 }
- /*-----------------------------------Forms*/
- .input-group{
-     border: 0 !important;
-     border-radius: 30px !important;
-     margin: 2px;
-     box-shadow: none !important;
- }
-.form-control{
-    border-radius: 30px;
-}
- .input-group-text{
-     width: 100px;
-     background-image: linear-gradient(#00ff7e, #1f3d90);
-     border: 0;
-     color: #fff;
-     padding: 0 25px;
-     border-radius: 30px;
-     box-shadow: none;
- }
-
+ 
  /*-----------------------------------Footer*/
 
  footer{
