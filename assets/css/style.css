@@ -248,7 +248,33 @@ section img {
 
  .btn-book:hover{
      background-color:#df4929;
- }
+ } 
+
+.btn-send{
+    background-color: #ff5722;
+     font-family: 'Lato', sans-serif;     
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #fff;
+     letter-spacing: 1px;
+     margin-top: 20px;
+     font-size:14px;
+     border:1px solid;
+     border-radius: 23px;
+     padding:0.5rem 1rem;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+ 
+}
+ .btn-send:hover{
+     background-color:#df4929;
+     color: #fff;
+     border-color: #df4929;
+ } 
+ 
+
 
  /*-----------------------------------Hover.css*/
  .hvr-icon-grow{
@@ -332,16 +358,53 @@ section img {
     background-color: #fff;
 }
 
- 
+ /*-------------------------------------Contact Page*/
+ .find-text{
+     text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 3rem;
+    padding-bottom: 50px;
+    padding-top: 50px;
+ }
+
+ .table .fa{
+     font-size: 20px;
+      color: #ff5722;
+ }
+
+ .table-wrapper{
+        padding-top: 2.5rem;
+   } 
 
 
- /*-------------------------------------Map*/
+ /*-------------------------------------Maps*/
 #map {min-height: 460px;}
+
+div#map-2 {
+    min-height: 360px;
+   
+}
+
+
+
+
 
 
 /*-------------------------------------Media Queries*/
 @media(min-width:768px){
 .gallery-box h4{
    font-size: 2rem;
+   } 
+   
 }
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
+
+
