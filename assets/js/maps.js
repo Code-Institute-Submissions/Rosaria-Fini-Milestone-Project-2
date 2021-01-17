@@ -29,31 +29,3 @@ function initMap() {
 
 
 
-/*
-            function initMap() {
-            var map = new google.maps.Map(document.getElementById("map-2"), {
-                zoom: 9,
-                center: {       
-                    lat: 51.50197236490781,
-                    lng: -0.020643166954232132
-                }
-            });
-
-            var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-            var locations = [
-               
-                { lat:51.49874252820631, lng: -0.019553628885394345}
-                
-            ];
-
-            var markers = locations.map(function(location, i) {
-                return new google.maps.Marker({
-                position: location,
-                label: labels[i % labels.length], 
-            });
-            });
-
-            var markerCluster = new MarkerClusterer(map, markers, 
-            {imagePath:"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});
-            }  */
