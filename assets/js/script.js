@@ -17,7 +17,17 @@ $(document).ready(function() {
         var replaceButton = $(this).parent().hasClass("showMore") ? "Show Less" : "Show More";
         $(this).text(replaceButton);
     });
-
-    
+       
+       /* Back to top button*/
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 40) {
+            $("#topBtn").fadeIn();
+        } else{
+            $("#topBtn").fadeOut();
+        }
+    });
+    $("#topBtn").click(function() {
+       $("html, body").animate({scrollTop: 0}, 800);
+    });
 });
 
