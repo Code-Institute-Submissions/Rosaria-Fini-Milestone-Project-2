@@ -328,6 +328,32 @@ section img {
      display: none;
  }
 
+ #button-map{
+     background-color: #ff5722;
+     font-family: 'Lato', sans-serif;     
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #fff;
+     letter-spacing: 1px;
+     margin-top: 20px;
+     font-size:14px;
+     border:1px solid;
+     border-radius: 23px;
+     padding:0.5rem 1rem;
+     margin-top: 5px;
+     margin-bottom: 10px;;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+ }
+
+ #button-map:hover{
+     background-color:#df4929;
+     color: #fff;
+     border-color: #df4929;
+ } 
+
  /*-----------------------------------Form*/
  .input-group{
      width: 90%;
