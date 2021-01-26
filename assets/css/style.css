@@ -176,6 +176,7 @@ body{
     font-family: 'Lobster Two', cursive;
     font-size: 3rem;
     padding-bottom: 50px;
+    
 
 }
 
@@ -187,6 +188,7 @@ body{
     width: 100%;
     border-radius: 10px;
     cursor: pointer;
+    
 }
 
 
@@ -202,6 +204,7 @@ body{
     transform: translate(-50%, -50%);
     
     
+    
 }
 
 .gallery img{
@@ -214,11 +217,13 @@ section img {
 
 .gallery-details p{
     display: none;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
 }
 
 .gallery-details.showMore p {
     display: block;
 }
+
 
 /*-----------------------------------Buttons*/
  .btn-outline-light{
