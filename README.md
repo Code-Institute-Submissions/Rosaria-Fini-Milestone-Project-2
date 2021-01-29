@@ -133,3 +133,5 @@ In this section I will be showing the validation techniques used in order to mak
 HTML5 Validation -> [Visit Site]( https://validator.w3.org/)
 
 CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
+
+### Validation Testing Document -> [Visit Document](testing/validation-testing.md)
