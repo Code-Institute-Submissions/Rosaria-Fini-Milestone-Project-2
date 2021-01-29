@@ -94,11 +94,15 @@ This section provide an insight into the UX process.
 
  ### Programming Languages
 
- * HTML5 -> [Visit Site]( https://en.wikipedia.org/wiki/HTML5)
+ * HTML5 -> [Visit Site](https://en.wikipedia.org/wiki/HTML5)
     - HTML5 was used to create the overall structure and page elements to be viewed in a web browser.
 
-* CSS3 -> [Visit Site]( https://en.wikipedia.org/wiki/CSS)
+* CSS3 -> [Visit Site](https://en.wikipedia.org/wiki/CSS)
     - CSS3 was used to give my project and its content style, layout, colours, a different font and format.
+
+* Javascript -> [Visit Site](https://en.wikipedia.org/wiki/JavaScript)
+    - JavaScript was used to give my project an iteractive look and feel and to be used to interact with APIs.
+
 
 ### Frameworks, Libraries & Tools Used
 
@@ -122,12 +126,12 @@ This section provide an insight into the UX process.
 
 * Google Chrome & Chrome Dev Tools -> [Visit Site](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=en)
     * Google Chrome and Chrome Dev Tools was used to help create my project as well as testing it as well.
- 
-* JQuery --> [Visit Site](https://jquery.com/)
-    * JQuery was used to add interactivity to the project.
 
 * Google API --> [Visit Site](https://cloud.google.com/apis/docs/overview)
     * Google API was used to import the google map and add interactivity.
+
+* JQuery --> [Visit Site](https://jquery.com/)
+    * JQuery was used to add interactivity to the project.
 
 # Validation
 
