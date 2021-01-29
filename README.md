@@ -24,17 +24,20 @@ Users can find their next holiday destination directly choosing a package from t
 
 ## User Stories
 This section provide an insight into the UX process.
+
 * As a user, I want to be able to book a travel package directly from the website and to find useful informations about the destinations.
 
 * As a user, I want to be able to get easily in touch with the travel agency. An entire section is dedicated to this scope which takes the user directly to the contact page.
 
 * As a user, I want to find a gallery section that will show me more about a Country of destination so I can make an accurate decision.
 
-* As a user, I want to be able to see the locations on the google map and to filter the results based on the Country I whish to travel to. From The map I want also be able to be redirected to the page where I can make the booking.
+* As a user, I want to be able to see the locations on the google map and to filter the results based on the Country I whish to travel to. 
 
-* As a user, I want to be able to see some social media links, so I can get to know the brand better. This can be found in footer section.
+* As a user, I want to find additional info about the locations on the map and be redirected to the page where I can make the booking from the map.
 
-* As a user, I want to be able to find out where QVD is located so I can have a direct contact.
+* As a user, I want to be able to find some social media links, so I can get to know the brand better. This can be found in footer section.
+
+* As a user, I want to be able to find out where QVD is located so I can have a direct contact as well as finding other useful info.
 
 * As a user, I want there to be a comtact form fully functional, so I can get info quicker.
 
@@ -135,3 +138,14 @@ HTML5 Validation -> [Visit Site]( https://validator.w3.org/)
 CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
 
 ### Validation Testing Document -> [Visit Document](testing/validation-testing.md)
+
+# Testing
+
+In this section I will be testing my project by going over my User Stories from the UX section and ensure that they all work as intended.
+
+### UX User Story Testing Document -> [Visit Document](testing/ux-testing.md)
+
+I have tested my project on Google Chrome and Firefox. In both browsers all pages, sections, fonts, images of the project work well as well as its responsiveness. 
+Using Chrome Dev responsive tools whilst programming helped me to simulate different sizes device, including landscape view. 
+
+## Interesting Bugs
