@@ -153,3 +153,11 @@ I have tested my project on Google Chrome and Firefox. In both browsers all page
 Using Chrome Dev responsive tools whilst programming helped me to simulate different sizes device, including landscape view. 
 
 ## Interesting Bugs
+
+When I decided to add the "read more/ read less" link in the Bucket List section of the homepage I found it difficult to implement it at first because when I was clicking on it the page was refreshing. By doing some external reseacrh I found out that I had to add the following href "javascript:void(0);javascript:void(0);", this prevent the page from refreshing.
+
+## GitHub pages
+
+I have used Github Pages to publish my site. 
+
+Deployed Project -> [Visit Site](https://rosariafini.github.io/Rosaria-Fini-Milestone-Project-2/)
