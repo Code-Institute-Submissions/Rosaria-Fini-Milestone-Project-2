@@ -184,3 +184,12 @@ Here there is a list of all the external URL that helped me in developing my pro
 
 * Images - All images used in the project were taken from Unsplash.com. [Visit Site](https://unsplash.com/). Unsplash photos are made to be used freely: all photos can be downloaded and used for free for commercial and non-commercial purposes
 and with no permission needed.
+
+## Acknowledgements
+
+I would like to thank Code Institute for the Lessons received so far which have enabled me to learn a list of such valuable skills in a such short period of time, and thinking that this is just the beginning of my learnig journey makes me proud of the choice I made of joining Code Institute.
+
+I would also like to thank the Tutor Team which has always helped me promptly everytime I needed.
+
+Least but not last I would ike to aknowledge my Student Mentor Aaron Sinnott for having given me great advices and for having guided me throughout the development of the Project.
+
