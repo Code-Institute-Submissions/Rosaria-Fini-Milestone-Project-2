@@ -161,3 +161,26 @@ When I decided to add the "read more/ read less" link in the Bucket List section
 I have used Github Pages to publish my site. 
 
 Deployed Project -> [Visit Site](https://rosariafini.github.io/Rosaria-Fini-Milestone-Project-2/)
+
+# Credits
+
+## Content 
+Here there is a list of all the external URL that helped me in developing my project.
+
+* [Bootstrap Navbar](https://getbootstrap.com/docs/4.5/components/navbar/) 
+* [Bootstrap Button](https://getbootstrap.com/docs/4.5/components/buttons/)
+* [Bootstrap Jumbotron](https://getbootstrap.com/docs/4.5/components/jumbotron)
+* [Boorstrap Forms](https://getbootstrap.com/docs/4.5/components/forms/)
+* [Google Fonts](https://fonts.google.com/) I used Google Font for my fonts by importing the fonts to my CSS file.
+* [Icon-Grow](https://github.com/RosariaFini/Hover/blob/master/css/hover.css) I have consulted this GitHub Page to help me with the coding of the Icon-Grow transiction.
+* [Google Maps](https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js)- The Google map located in the homepage is linked to my Google developer platform account by using an API key that i generated when i created the account and has been declared in the script tags at the bottom of body.
+* [jQuery](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js)
+
+## Media
+
+* Icons – All of the icons used in the project are from Font Awesome CDN which I have included in the head of every HTML webpage.[Visti Site](https://use.fontawesome.com/releases/v5.14.0/css/all.css)
+
+* Hover Transition – The Hover Transition used in the project are from Hover.css CDN which I have included in the head of every HTML webpage. [Visit Site](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css)
+
+* Images - All images used in the project were taken from Unsplash.com. [Visit Site](https://unsplash.com/). Unsplash photos are made to be used freely: all photos can be downloaded and used for free for commercial and non-commercial purposes
+and with no permission needed.
