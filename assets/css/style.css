@@ -3,6 +3,7 @@
 /*-----------------------------------Typography*/
 body{
     font-family: 'Lato', sans-serif;
+    
 }
 /*-----------------------------------Navbar*/
 .navbar-brand{
@@ -27,6 +28,7 @@ body{
 
 /* S E C T I O N S */
 /*-----------------------------------Header Section*/
+
 .callout-container{
     height: 70vh;
     background: url('../images/image-head.jpg') no-repeat center center fixed;
@@ -40,6 +42,7 @@ body{
     position: relative;
     
     
+    
 }
 
 .opaque-overlay {
@@ -49,6 +52,7 @@ body{
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 /*-----------------------------------Header Section-Jumbotron*/
@@ -160,6 +164,7 @@ body{
     justify-content: center;
     position: relative;
     
+    
 }
 
 /*-----------------------------------Gallery Section*/
@@ -218,6 +223,7 @@ section img {
 .gallery-details p{
     display: none;
     box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    padding: 5%;
 }
 
 .gallery-details.showMore p {
@@ -396,6 +402,7 @@ section img {
 }
  
  /*-----------------------------------Footer*/
+ 
 
  footer{
     background-color: #343a40!important;
@@ -487,6 +494,10 @@ section img {
 div#map-2 {
     min-height: 360px;
    
+}
+
+map-container{
+    padding: 0;
 }
 
 

@@ -158,7 +158,14 @@ When I decided to add the "read more/ read less" link in the Bucket List section
 
 ## GitHub pages
 
-I have used Github Pages to publish my site. 
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository.
+2. At the top of the Repository, locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [l
 
 Deployed Project -> [Visit Site](https://rosariafini.github.io/Rosaria-Fini-Milestone-Project-2/)
 

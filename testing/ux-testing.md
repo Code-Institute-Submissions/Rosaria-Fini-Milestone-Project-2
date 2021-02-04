@@ -63,7 +63,7 @@
 
 ![Find-Us](../screenshots/find-us.jpg)
 
-# Find a comtact form fully functional
+# Find a contact form fully functional
 
 1. Go on the contact page
 2. Scroll down to the "get in touch" section
@@ -71,7 +71,7 @@
 
 ![Contact-Form](../screenshots/contact-form.jpg)
 
-# Easy to scrool website with a back to top button
+# Easy to scroll website with a back to top button
 
 1. On both homepage and contact page
 2. On the ight hand side, at the bottom, find the back to top button
